@@ -1,13 +1,109 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+ body {
+   margin: 0;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+     sans-serif;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   width: 400px;
+   margin: 0 auto;
+   margin-top: 100px;
+ }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+ code {
+   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+     monospace;
+ }
+
+ .title-input {
+   color: #333;
+   font-weight: bold;
+   font-size: 25px;
+   border-bottom: 2px solid #333;
+   padding: 30px 0 3px 0;
+   margin: 0 0 20px;
+   text-transform: uppercase;
+ }
+
+ .button-input {
+   height: 2rem;
+   border-radius: 4px;
+   color: white;
+   width: 100%;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 10pt;
+   cursor: pointer;
+   background-color: white;
+   color: black;
+   border: 2px solid #3cda27;
+   transition-duration: 0.2s;
+ }
+
+ .button-input:hover {
+   background-color: #3cda27;
+   color: white;
+ }
+
+ .button-remove {
+   height: 2rem;
+   border-radius: 4px;
+   color: white;
+   width: 100px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 10pt;
+   cursor: pointer;
+   background-color: white;
+   color: black;
+   border: 2px solid #f00b0b;
+   transition-duration: 0.2s;
+   margin-left: 0.2rem;
+ }
+
+ .button-remove:hover {
+   background-color: #f00b0b;
+   color: white;
+ }
+
+ .input {
+   display: inline-block;
+   width: 100%;
+   font-size: 11pt;
+   transition: all 0.3s ease-in-out;
+   outline: none;
+   padding: 7px 0px 7px 7px;
+   margin: 5px 1px 3px 0px;
+   border: 1px solid #dddddd;
+   border-left: none;
+   border-right: none;
+   border-top: none;
+ }
+
+ .input:focus {
+   box-shadow: 0 0 7px rgba(81, 203, 238, 1);
+   border: 1px solid rgba(81, 203, 238, 1);
+ }
+
+ .title-input {
+   display: flex;
+   justify-content: space-between;
+ }
+
+ ul {
+   margin: 0;
+   padding: 0;
+ }
+
+ li {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   list-style: none;
+   border-bottom: 1px solid #eee;
+   font-size: 18px;
+   line-height: 40px;
+   padding-left: 20px;
+ }
